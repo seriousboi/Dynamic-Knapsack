@@ -3,16 +3,6 @@ from dyngraph import *
 
 
 
-def main():
-    #itemList = [[2,5,2],[3,7,1],[7,9,3]]
-    items,maxCapacity = readInstance("kplib_student/01WeaklyCorrelated/wkcorr_50_s004.kpbd")
-    #arrayVsGraph(items,maxCapacity)
-    distances, predecessors, runTime = solveDynGraphPack(items,maxCapacity)
-    print("graph finds",-distances[0][None],"in",round(runTime,5),"seconds")
-
-
-
-
 #classe d'un objet
 class Item:
     def __init__(self,weight,profit,amount):
@@ -49,12 +39,9 @@ def readInstance(fileName):
 
 def arrayVsGraph(items,maxCapacity):
     print(len(items)-1,"items,",maxCapacity,"capacity")
-    profit, states, runTime = solveDynArrayPack(items,maxCapacity)
-    print("array finds",profit,"in",round(runTime,5),"seconds")
+    profit, states, arrayRunTime = solveDynArrayPack(items,maxCapacity)
+    print("Array finds",profit,"in",round(arrayRunTime,2),"seconds")
 
-    distances, predecessors, runTime = solveDynGraphPack(items,maxCapacity)
-    print("graph finds",-distances[0][None],"in",round(runTime,5),"seconds")
-
-
-
-main()
+    distances, predecessors, graphRunTime = solveDynGraphPack(items,maxCapacity)
+    print("Graph finds",-distances[0][None],"in",round(graphRunTime,2),"seconds")
+    return arrayRunTime,graphRunTime
