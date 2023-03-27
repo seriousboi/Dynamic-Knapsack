@@ -1,0 +1,414 @@
+C:\Users\Pierre\Desktop\prog\Dynamic-Knapsack>main.py
+############################################
+Uncorrelated instances of size 50
+
+Instance uncorr_50_s000.kpbd
+50 items, 14778 capacity
+Array finds 35649 in 3.9 seconds
+Graph finds 35649 in 17.32 seconds
+Unbounded relaxation finds 105192 in 5.26 seconds
+
+Instance uncorr_50_s001.kpbd
+50 items, 13598 capacity
+Array finds 35744 in 3.02 seconds
+Graph finds 35744 in 23.79 seconds
+Unbounded relaxation finds 1948760 in 6.08 seconds
+
+Instance uncorr_50_s002.kpbd
+50 items, 13810 capacity
+Array finds 38463 in 9.96 seconds
+Graph finds 38463 in 20.43 seconds
+Unbounded relaxation finds 186498 in 1.93 seconds
+
+Instance uncorr_50_s003.kpbd
+50 items, 13596 capacity
+Array finds 36804 in 7.06 seconds
+Graph finds 36804 in 17.76 seconds
+Unbounded relaxation finds 198132 in 5.89 seconds
+
+Instance uncorr_50_s004.kpbd
+50 items, 11618 capacity
+Array finds 41730 in 9.38 seconds
+Graph finds 41730 in 14.71 seconds
+Unbounded relaxation finds 355296 in 5.49 seconds
+
+Instance uncorr_50_s005.kpbd
+50 items, 11922 capacity
+Array finds 36570 in 8.4 seconds
+Graph finds 36570 in 15.93 seconds
+Unbounded relaxation finds 336182 in 1.65 seconds
+
+Instance uncorr_50_s006.kpbd
+50 items, 12044 capacity
+Array finds 38558 in 6.15 seconds
+Graph finds 38558 in 15.27 seconds
+Unbounded relaxation finds 742652 in 5.21 seconds
+
+Instance uncorr_50_s007.kpbd
+50 items, 12828 capacity
+Array finds 28551 in 9.66 seconds
+Graph finds 28551 in 15.27 seconds
+Unbounded relaxation finds 205170 in 5.4 seconds
+
+Instance uncorr_50_s008.kpbd
+50 items, 10985 capacity
+Array finds 40588 in 2.42 seconds
+Graph finds 40588 in 19.74 seconds
+Unbounded relaxation finds 542528 in 5.05 seconds
+
+Instance uncorr_50_s009.kpbd
+50 items, 11487 capacity
+Array finds 41926 in 2.36 seconds
+Graph finds 41926 in 19.89 seconds
+Unbounded relaxation finds 297168 in 5.02 seconds
+
+Results on Uncorrelated instances of size 50
+Average array time: 6.23 seconds
+Average graph time: 18.01 seconds
+Average unbounded relaxation time: 4.7 seconds
+############################################
+
+############################################
+Weakly correlated instances of size 50
+
+Instance wkcorr_50_s000.kpbd
+50 items, 14239 capacity
+Array finds 17144 in 8.97 seconds
+Graph finds 17144 in 19.31 seconds
+Unbounded relaxation finds 690543 in 2.14 seconds
+
+Instance wkcorr_50_s001.kpbd
+50 items, 11793 capacity
+Array finds 15318 in 6.55 seconds
+Graph finds 15318 in 14.59 seconds
+Unbounded relaxation finds 275170 in 1.69 seconds
+
+Instance wkcorr_50_s002.kpbd
+50 items, 13570 capacity
+Array finds 16651 in 7.17 seconds
+Graph finds 16651 in 16.92 seconds
+Unbounded relaxation finds 65540 in 1.89 seconds
+
+Instance wkcorr_50_s003.kpbd
+50 items, 13214 capacity
+Array finds 15955 in 7.3 seconds
+Graph finds 15955 in 15.25 seconds
+Unbounded relaxation finds 93357 in 5.45 seconds
+
+Instance wkcorr_50_s004.kpbd
+50 items, 12263 capacity
+Array finds 15341 in 9.37 seconds
+Graph finds 15341 in 16.17 seconds
+Unbounded relaxation finds 30561 in 5.38 seconds
+
+Instance wkcorr_50_s005.kpbd
+50 items, 12719 capacity
+Array finds 15374 in 2.77 seconds
+Graph finds 15374 in 21.17 seconds
+Unbounded relaxation finds 343386 in 5.53 seconds
+
+Instance wkcorr_50_s006.kpbd
+50 items, 13327 capacity
+Array finds 16061 in 9.14 seconds
+Graph finds 16061 in 15.87 seconds
+Unbounded relaxation finds 426464 in 5.72 seconds
+
+Instance wkcorr_50_s007.kpbd
+50 items, 10476 capacity
+Array finds 13422 in 8.95 seconds
+Graph finds 13422 in 13.51 seconds
+Unbounded relaxation finds 29170 in 1.63 seconds
+
+Instance wkcorr_50_s008.kpbd
+50 items, 11822 capacity
+Array finds 14183 in 6.55 seconds
+Graph finds 14183 in 16.1 seconds
+Unbounded relaxation finds 23499 in 1.6 seconds
+
+Instance wkcorr_50_s009.kpbd
+50 items, 10836 capacity
+Array finds 13659 in 5.61 seconds
+Graph finds 13659 in 13.22 seconds
+Unbounded relaxation finds 103544 in 4.93 seconds
+
+Results on Weakly correlated instances of size 50
+Average array time: 7.24 seconds
+Average graph time: 16.21 seconds
+Average unbounded relaxation time: 3.59 seconds
+############################################
+
+############################################
+Strongly correlated instances of size 50
+
+Instance sgcorr_50_s000.kpbd
+50 items, 14239 capacity
+Array finds 19939 in 9.35 seconds
+Graph finds 19939 in 16.84 seconds
+Unbounded relaxation finds 726138 in 6.24 seconds
+
+Instance sgcorr_50_s001.kpbd
+50 items, 11793 capacity
+Array finds 18593 in 9.98 seconds
+Graph finds 18593 in 15.85 seconds
+Unbounded relaxation finds 404893 in 1.77 seconds
+
+Instance sgcorr_50_s002.kpbd
+50 items, 13570 capacity
+Array finds 19470 in 6.7 seconds
+Graph finds 19470 in 18.59 seconds
+Unbounded relaxation finds 70068 in 1.97 seconds
+
+Instance sgcorr_50_s003.kpbd
+50 items, 13214 capacity
+Array finds 19814 in 6.9 seconds
+Graph finds 19814 in 16.56 seconds
+Unbounded relaxation finds 107502 in 5.85 seconds
+
+Instance sgcorr_50_s004.kpbd
+50 items, 12263 capacity
+Array finds 18863 in 2.71 seconds
+Graph finds 18863 in 22.1 seconds
+Unbounded relaxation finds 40062 in 1.67 seconds
+
+Instance sgcorr_50_s005.kpbd
+50 items, 12719 capacity
+Array finds 20176 in 7.39 seconds
+Graph finds 20176 in 15.59 seconds
+Unbounded relaxation finds 648618 in 1.77 seconds
+
+Instance sgcorr_50_s006.kpbd
+50 items, 13327 capacity
+Array finds 19327 in 7.25 seconds
+Graph finds 19327 in 14.42 seconds
+Unbounded relaxation finds 1346027 in 5.6 seconds
+
+Instance sgcorr_50_s007.kpbd
+50 items, 10476 capacity
+Array finds 17176 in 2.31 seconds
+Graph finds 17176 in 17.62 seconds
+Unbounded relaxation finds 37975 in 4.58 seconds
+
+Instance sgcorr_50_s008.kpbd
+50 items, 11822 capacity
+Array finds 18790 in 8.26 seconds
+Graph finds 18790 in 14.77 seconds
+Unbounded relaxation finds 70920 in 5.16 seconds
+
+Instance sgcorr_50_s009.kpbd
+50 items, 10836 capacity
+Array finds 18036 in 8.38 seconds
+Graph finds 18036 in 13.06 seconds
+Unbounded relaxation finds 165636 in 1.45 seconds
+
+Results on Strongly correlated instances of size 50
+Average array time: 6.92 seconds
+Average graph time: 16.54 seconds
+Average unbounded relaxation time: 3.61 seconds
+############################################
+
+############################################
+Uncorrelated instances of size 100
+
+Instance uncorr_100_s000.kpbd
+100 items, 22545 capacity
+Array finds 108430 in 21.62 seconds
+Graph finds 108430 in 128.23 seconds
+Unbounded relaxation finds 9152864 in 7.36 seconds
+
+Instance uncorr_100_s001.kpbd
+100 items, 22714 capacity
+Array finds 97515 in 101.98 seconds
+Graph finds 97515 in 134.31 seconds
+Unbounded relaxation finds 2480109 in 7.34 seconds
+
+Instance uncorr_100_s002.kpbd
+100 items, 21618 capacity
+Array finds 131776 in 143.9 seconds
+Graph finds 131776 in 111.55 seconds
+Unbounded relaxation finds 4141434 in 7.15 seconds
+
+Instance uncorr_100_s003.kpbd
+100 items, 24044 capacity
+Array finds 112492 in 97.9 seconds
+Graph finds 112492 in 123.31 seconds
+Unbounded relaxation finds 1490480 in 8.38 seconds
+
+Instance uncorr_100_s004.kpbd
+100 items, 25547 capacity
+Array finds 97759 in 135.41 seconds
+Graph finds 97759 in 163.76 seconds
+Unbounded relaxation finds 6098630 in 7.94 seconds
+
+Instance uncorr_100_s005.kpbd
+100 items, 28462 capacity
+Array finds 105591 in 225.5 seconds
+Graph finds 105591 in 248.35 seconds
+Unbounded relaxation finds 1778250 in 10.79 seconds
+
+Instance uncorr_100_s006.kpbd
+100 items, 25981 capacity
+Array finds 90759 in 237.66 seconds
+Graph finds 90759 in 198.79 seconds
+Unbounded relaxation finds 2972511 in 89.15 seconds
+
+Instance uncorr_100_s007.kpbd
+100 items, 23032 capacity
+Array finds 99559 in 18.13 seconds
+Graph finds 99559 in 269.33 seconds
+Unbounded relaxation finds 14717448 in 9.95 seconds
+
+Instance uncorr_100_s008.kpbd
+100 items, 25751 capacity
+Array finds 97876 in 156.13 seconds
+Graph finds 97876 in 115.0 seconds
+Unbounded relaxation finds 1802430 in 55.79 seconds
+
+Instance uncorr_100_s009.kpbd
+100 items, 24281 capacity
+Array finds 87804 in 19.0 seconds
+Graph finds 87804 in 212.85 seconds
+Unbounded relaxation finds 730014 in 7.79 seconds
+
+Results on Uncorrelated instances of size 100
+Average array time: 115.72 seconds
+Average graph time: 170.55 seconds
+Average unbounded relaxation time: 21.16 seconds
+############################################
+
+############################################
+Weakly correlated instances of size 100
+
+Instance wkcorr_100_s000.kpbd
+100 items, 29017 capacity
+Array finds 35167 in 150.97 seconds
+Graph finds 35167 in 180.58 seconds
+Unbounded relaxation finds 754416 in 11.28 seconds
+
+Instance wkcorr_100_s001.kpbd
+100 items, 25391 capacity
+Array finds 32826 in 217.26 seconds
+Graph finds 32826 in 174.19 seconds
+Unbounded relaxation finds 203112 in 7.65 seconds
+
+Instance wkcorr_100_s002.kpbd
+100 items, 27381 capacity
+Array finds 33959 in 155.87 seconds
+Graph finds 33959 in 200.25 seconds
+Unbounded relaxation finds 107170 in 138.42 seconds
+
+Instance wkcorr_100_s003.kpbd
+100 items, 26811 capacity
+Array finds 32398 in 21.18 seconds
+Graph finds 32398 in 359.03 seconds
+Unbounded relaxation finds 109716 in 83.25 seconds
+
+Instance wkcorr_100_s004.kpbd
+100 items, 23881 capacity
+Array finds 32924 in 19.22 seconds
+Graph finds 32924 in 185.35 seconds
+Unbounded relaxation finds 131884 in 44.33 seconds
+
+Instance wkcorr_100_s005.kpbd
+100 items, 24642 capacity
+Array finds 35323 in 15.95 seconds
+Graph finds 35323 in 163.33 seconds
+Unbounded relaxation finds 1232100 in 8.34 seconds
+
+Instance wkcorr_100_s006.kpbd
+100 items, 25372 capacity
+Array finds 33773 in 88.02 seconds
+Graph finds 33773 in 104.1 seconds
+Unbounded relaxation finds 2258108 in 38.0 seconds
+
+Instance wkcorr_100_s007.kpbd
+100 items, 23305 capacity
+Array finds 30542 in 17.05 seconds
+Graph finds 30542 in 145.85 seconds
+Unbounded relaxation finds 54247 in 6.56 seconds
+
+Instance wkcorr_100_s008.kpbd
+100 items, 22807 capacity
+Array finds 30543 in 118.05 seconds
+Graph finds 30543 in 93.41 seconds
+Unbounded relaxation finds 114030 in 29.47 seconds
+
+Instance wkcorr_100_s009.kpbd
+100 items, 22323 capacity
+Array finds 28878 in 16.83 seconds
+Graph finds 28878 in 132.76 seconds
+Unbounded relaxation finds 242364 in 6.0 seconds
+
+Results on Weakly correlated instances of size 100
+Average array time: 82.04 seconds
+Average graph time: 173.88 seconds
+Average unbounded relaxation time: 37.33 seconds
+############################################
+
+############################################
+Strongly correlated instances of size 100
+
+Instance sgcorr_100_s000.kpbd
+100 items, 29017 capacity
+Array finds 43817 in 88.16 seconds
+Graph finds 43817 in 170.32 seconds
+Unbounded relaxation finds 1479816 in 104.5 seconds
+
+Instance sgcorr_100_s001.kpbd
+100 items, 25391 capacity
+Array finds 43091 in 18.67 seconds
+Graph finds 43091 in 339.33 seconds
+Unbounded relaxation finds 871689 in 10.54 seconds
+
+Instance sgcorr_100_s002.kpbd
+100 items, 27381 capacity
+Array finds 43981 in 145.37 seconds
+Graph finds 43981 in 146.35 seconds
+Unbounded relaxation finds 141380 in 7.51 seconds
+
+Instance sgcorr_100_s003.kpbd
+100 items, 26811 capacity
+Array finds 42811 in 125.07 seconds
+Graph finds 42811 in 164.38 seconds
+Unbounded relaxation finds 218310 in 7.21 seconds
+
+Instance sgcorr_100_s004.kpbd
+100 items, 23881 capacity
+Array finds 42181 in 19.38 seconds
+Graph finds 42181 in 281.86 seconds
+Unbounded relaxation finds 262680 in 67.55 seconds
+
+Instance sgcorr_100_s005.kpbd
+100 items, 24642 capacity
+Array finds 44842 in 26.54 seconds
+Graph finds 44842 in 250.72 seconds
+Unbounded relaxation finds 1256742 in 13.1 seconds
+
+Instance sgcorr_100_s006.kpbd
+100 items, 25372 capacity
+Array finds 41671 in 145.43 seconds
+Graph finds 41671 in 132.92 seconds
+Unbounded relaxation finds 2562572 in 68.28 seconds
+
+Instance sgcorr_100_s007.kpbd
+100 items, 23305 capacity
+Array finds 40805 in 19.8 seconds
+Graph finds 40805 in 218.58 seconds
+Unbounded relaxation finds 124599 in 8.27 seconds
+
+Instance sgcorr_100_s008.kpbd
+100 items, 22807 capacity
+Array finds 40107 in 112.81 seconds
+Graph finds 40107 in 100.04 seconds
+Unbounded relaxation finds 212806 in 31.35 seconds
+
+Instance sgcorr_100_s009.kpbd
+100 items, 22323 capacity
+Array finds 43523 in 17.03 seconds
+Graph finds 43523 in 164.6 seconds
+Unbounded relaxation finds 341223 in 6.57 seconds
+
+Results on Strongly correlated instances of size 100
+Average array time: 71.83 seconds
+Average graph time: 196.91 seconds
+Average unbounded relaxation time: 32.49 seconds
+############################################

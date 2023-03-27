@@ -6,16 +6,16 @@ import os
 
 
 def main():
-    items,maxCapacity = readInstance("kplib_student/01WeaklyCorrelated/wkcorr_50_s001.kpbd")
-    print(len(items)-1,"items,",maxCapacity,"capacity")
-    profit, states, arrayRunTime = solveDynArrayPack(items,maxCapacity)
-    print("Array finds",profit,"in",round(arrayRunTime,2),"seconds")
-    distances, predecessors, graphRunTime = solveDynGraphPack(items,maxCapacity)
-    print("Graph finds",-distances[0][None],"in",round(graphRunTime,2),"seconds")
-    distances, predecessors, unboundedRunTime = solveDynGraphPack(items,maxCapacity,True)
-    print("Unbounded relaxation finds",-distances[0][None],"in",round(unboundedRunTime,2),"seconds")
+    #items,maxCapacity = readInstance("kplib_student/01WeaklyCorrelated/wkcorr_50_s001.kpbd")
+    #print(len(items)-1,"items,",maxCapacity,"capacity")
+    #profit, states, arrayRunTime = solveDynArrayPack(items,maxCapacity)
+    #print("Array finds",profit,"in",round(arrayRunTime,2),"seconds")
+    #distances, predecessors, graphRunTime = solveDynGraphPack(items,maxCapacity)
+    #print("Graph finds",-distances[0][None],"in",round(graphRunTime,2),"seconds")
+    #distances, predecessors, unboundedRunTime = solveDynGraphPack(items,maxCapacity,True)
+    #print("Unbounded relaxation finds",-distances[0][None],"in",round(unboundedRunTime,2),"seconds")
 
-    #runTests()
+    runTests()
 
 
 
